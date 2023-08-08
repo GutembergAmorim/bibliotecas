@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <nav class="w-full h-20 px-8 border-b-2 border-[#d9dbe0]">
+        <div class="w-full h-full flex items-center justify-between">
+            <img src="https://static.tildacdn.com/tild3130-6332-4064-b365-333031663538/logo.svg" alt="">
+            <div class="flex sm:hidden">
+                <box-icon name='menu'></box-icon>
+            </div>
+            <div class="hidden sm:flex gap-10 text-lg"> 
+                <a class="hover:text-[#0053ff]" href="">Our rates</a>
+                <a class="hover:text-[#0053ff]" href="">Favorite projets</a>
+                <a class="hover:text-[#0053ff]" href="">Reviews</a>
+                <a class="hover:text-[#0053ff]" href="">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section class="w-full m-3">
+        <div class="flex flex-col gap-10 items-center md:items-start lg:flex-row">
+            <h1 class="">The outsourcing team of your dreams</h1>
+            <p class="text-center">We provide full transparency of development process, so you can stay on top of your business needs</p>
+            <button class="">REQUEST ACCESS</button>
+        </div>
+    </section>
+    <section class="w-full flex flex-col gap-4 p-4 sm:flex-row">
+        <div class="sm:flex-col">
+            <h1 class="text-3xl">Key features</h1>
+            <div class="flex gap-3 sm:flex-col sm:items-center">
+                <img src="https://static.tildacdn.com/tild3236-3339-4231-b161-366365366237/ill-e-1.svg" alt="">
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">PERSONAL MANAGER</h2>
+                    <p>Available in the Pacific Time Zone working hours</p>
+                </div>
+            </div>
+            <div class="flex gap-3 sm:flex-col sm:items-center">
+                <img src="https://static.tildacdn.com/tild6138-3037-4361-b039-323039383662/ill-e-2.svg" alt="">
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">CLEAR BUDGET</h2>
+                <p>We provide detailed estimates. You agree to everything before we start</p>
+                </div>
+            </div>
+            <div class="flex gap-3 sm:flex-col sm:items-center">
+                <img src="https://static.tildacdn.com/tild6366-6135-4966-b635-336633336561/ill-e-3.svg" alt="">
+                <div class="flex flex-col gap-2">
+                    <h2 class="font-bold">REALTIME DASHBOARD
+                    COMING SOON</h2>
+                    <p>Integrated dashboard providing full control over the development process</p>
+                </div>
+            </div>
+        </div>
+        </section>
+</body>
+</html>
